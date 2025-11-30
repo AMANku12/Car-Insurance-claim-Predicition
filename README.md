@@ -164,12 +164,12 @@ Final evaluation performed on completely unseen test data.
 **Classification:**
 
 * Model: XGBoost
-* Test F1 Score: ________
+* Test F1 Score: 0.77328
 
 **Regression:**
 
-* RMSE: ________
-* MAE: ________
+* RMSE: 8378.846
+* MAE: 8378.846
 
 ---
 
@@ -187,11 +187,9 @@ python main.py
 ## Project Structure
 
 ```
-├── main.py
+├── main.ipynb
 ├── data/
 │   └── car_insurance_claim.csv
-├── models/
-├── notebooks/
 ├── requirements.txt
 └── README.md
 ```
@@ -223,14 +221,6 @@ python main.py
 * SHAP‑based global feature interpretability
 * Time‑aware modeling for policy risk evolution
 * Deployment using FastAPI + Docker
-
----
-
-## Author
-
-**Aman Kumar Upadhyaya**
-Chemical Engineering | Machine Learning | Data Science
-(Add GitHub & LinkedIn here)
 
 ---
 
