@@ -5,8 +5,6 @@ A full, production‑minded **machine learning project** that predicts:
 1. **Whether a customer will file a car insurance claim (classification)**
 2. **The monetary value of the claim if it occurs (regression)**
 
-Built from raw Kaggle data using **scikit‑learn, XGBoost, and structured ML pipelines** with rigorous preprocessing, feature engineering, cross‑validation, and hyperparameter tuning.
-
 ---
 
 ## Data Source
@@ -47,8 +45,6 @@ Business relevance:
 * Scikit‑Learn
 * XGBoost, CatBoost
 * Seaborn, Matplotlib
-* Statsmodels (VIF)
-
 ---
 
 ## Machine Learning Pipeline
@@ -128,7 +124,6 @@ This guarantees identical transformations in training and inference.
 
 * Test‑set F1 Score
 * Confusion Matrix
-* Generalization gap monitored
 
 ---
 
@@ -159,12 +154,12 @@ Final evaluation performed on completely unseen test data.
 
 ---
 
-## Results (Replace With Your Final Metrics)
+## Results
 
 **Classification:**
 
 * Model: XGBoost
-* Test F1 Score: 0.77328
+* Test F1 Score: 0.83328
 
 **Regression:**
 
@@ -194,34 +189,3 @@ python main.py
 └── README.md
 ```
 
----
-
-## Reproducibility Practices
-
-* Fixed random seeds
-* Data leakage controlled through pipelines
-* Cross‑validated all major models
-* Hyperparameter search isolated from test data
-
----
-
-## Resume‑Ready Highlights
-
-* Built a **dual‑task ML system** predicting both claim probability and claim cost.
-* Designed **fully automated preprocessing pipelines** with KNN imputation and categorical encoders.
-* Identified and mitigated **multicollinearity using VIF analysis**.
-* Optimized **XGBoost and SGD models using large‑scale hyperparameter search**.
-* Evaluated models with **stratified cross‑validation and strict test isolation**.
-
----
-
-## Future Improvements
-
-* Class‑imbalance cost‑sensitive optimization
-* SHAP‑based global feature interpretability
-* Time‑aware modeling for policy risk evolution
-* Deployment using FastAPI + Docker
-
----
-
-This project demonstrates strong foundations in **tabular ML modeling, production pipelines, statistical validation, and business‑driven evaluation**, making it suitable for **Data Scientist / ML Engineer** roles.
